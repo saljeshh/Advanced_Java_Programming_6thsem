@@ -1,0 +1,3 @@
+execute = insert
+executeQuery = select, rs.absoulte()
+executeUpdate = update delete

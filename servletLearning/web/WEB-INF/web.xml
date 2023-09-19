@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>Hello</servlet-name>
+        <servlet-class>com.serve.AddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hello</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>anagram</servlet-name>
+        <servlet-class>com.serve.CheckAnagram</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>anagram</servlet-name>
+        <url-pattern>/anagram</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>addsession</servlet-name>
+        <servlet-class>com.session.AddSession</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addsession</servlet-name>
+        <url-pattern>/addsession</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>showsession</servlet-name>
+        <servlet-class>com.session.ShowSession</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showsession</servlet-name>
+        <url-pattern>/show</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>cookieadd</servlet-name>
+        <servlet-class>com.cookie.SaveCookie</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookieadd</servlet-name>
+        <url-pattern>/addcookie</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>showcookie</servlet-name>
+        <servlet-class>com.cookie.ShowCookie</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showcookie</servlet-name>
+        <url-pattern>/showcookieresult</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>
